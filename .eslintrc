@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "standard",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "no-alert": "error",
+    "jsx-quotes": ["error", "prefer-double"]
+  }
+}

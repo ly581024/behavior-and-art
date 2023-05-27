@@ -1,0 +1,40 @@
+{
+  "name": "behavior-and-art",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "lint": "next lint && stylelint src/**/*.{css,scss}",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint",
+    "*.{css,scss}": "stylelint"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "next": "^13.4.4",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@commitlint/types": "^17.4.4",
+    "@types/node": "^20.2.5",
+    "conventional-changelog-atom": "^2.0.8",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "eslint-config-standard": "^17.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "stylelint": "^15.6.2",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "stylelint-order": "^6.0.3",
+    "typescript": "^5.0.4"
+  }
+}
