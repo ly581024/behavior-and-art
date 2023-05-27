@@ -23,6 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
+    "@commitlint/format": "^17.4.4",
     "@commitlint/types": "^17.4.4",
     "@types/node": "^20.2.5",
     "conventional-changelog-atom": "^2.0.8",
